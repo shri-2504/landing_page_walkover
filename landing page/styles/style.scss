@@ -1,0 +1,376 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 64px 149px 0px 149px;
+        .space{
+            width: 822.36px;
+        }
+        .nav-item{
+            a{
+                font-size: 24px;
+                color: black;
+            }
+            .active{
+                font-size: 16px;
+                font-weight:700;
+            }
+        }
+        .navbar-nav{
+            width: 665px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    }
+    .main_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .info{
+            padding-top: 270px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                font-size: 120px;
+            }
+            p{
+                margin-top: 28px;
+                font-size: 38px;
+            }
+            .cmn{
+                display: flex;
+                .active{
+                    color: blue;
+                }
+            }
+        }
+        .email{
+            margin-top: 42px;
+            display: flex;
+
+            .email-addr{
+                color: #ff9D9D9D;
+                padding-left: 15px;
+                display: flex;
+                align-items: center;
+                height: 58px;
+                width: 412px;
+                border: 1px solid black;
+                border-radius: 3px 0px 0px 3px;
+                font-size: 20px;
+            }
+            .search{
+                color: white;
+                justify-content: center;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                height: 58px;
+                width: 256.77px;
+                background: black;
+                border-radius: 0px 5px 5px 0px;
+                font-size: 21px;
+            }
+        }
+    }
+    .description{
+        padding-top: 402px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .space_intro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            p{
+                color: black;
+                font-size: 36px;
+                mark{
+                    background-color: yellow;
+                }
+                b{
+                    font-weight: 500;
+                }
+            }
+            
+        }
+        .section_two{
+            margin-top: 203px;
+            .col1,.col{
+                height: 351px;
+                width: 656px;
+                margin-bottom: 14px;
+                border-radius: 10.86px;
+                .space_specification{
+                    padding: 79px 66px 0px 45px;
+                    .icon{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 18px;
+                        .channel{
+                            height: 58px;
+                            width: 64px;
+                        }
+                        .doc{
+                            height: 58px;
+                            width: 58px;
+                        }
+                        .email{
+                            height: 69px;
+                            width: 58px;
+                        }
+                        .to-do{
+                            height: 58px;
+                            width: 58px;
+                        }
+                        .okr{
+                            height: 67px;
+                            width: 67px;
+                        }
+                        .meet{
+                            height: 60.69px;
+                            width: 76px;
+                        }
+                        h1{
+                            padding-left: 15px;
+                            font-size: 42.2px;
+                            color: black;
+                        }
+                    }
+                    p{
+                        font-size: 23.38px;
+                        color: rgba(88, 88, 88, 1);
+                    }
+                    button{
+                        height: 52px;
+                        width: 154px;
+                        background: black;
+                        border: none;
+                        border-radius: 6px;
+                        color: white;
+                        font-size: 17px;
+                    }
+                }
+                
+                
+            }
+            .active{
+                box-shadow: 0px 3.1px 38.78px 0px rgba(0, 0, 0, 0.1);
+            }
+            .col1{
+                margin-right: 242px;
+            }
+        }
+    }
+    .pricing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .curve{
+            margin-top: 133px;
+            margin-bottom: 110px;
+        }
+        .pricing-header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                font-size: 42px;
+                font-weight: 500;
+            }
+            h2{
+                margin-top: 20px;
+                font-size: 24px;
+            }
+
+        }
+        .pricing-body{
+            width: 1267px;
+            height: 552px;
+            margin-top: 53px;
+            box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1);
+            padding: 70px 57px 80px 90px;
+            display: flex;
+            align-items: center;
+            img{
+                height: 300px;
+                width: 150px;
+            }
+            .pricing-content{
+                margin-left: 57px;
+                h3{
+                    padding-left: 49px;
+                    font-size: 32px;
+                    font-weight: 400;
+                    
+                }
+                p{
+                    padding-left: 49px;
+                    font-size: 25px;
+                }
+                .free{
+                    margin-bottom: 53px;
+                }
+                .eleventh{
+                    padding-left: 60px;
+                }
+                .usd{
+                    margin-bottom: 35px;
+                }
+                .mark{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 60px;
+                    width: 856px;
+                    height: 112px;
+                    background-color: rgba(255, 245, 194, 1);
+                } 
+                mark{
+                    font-size: 45px;
+                    font-weight: 500;
+                    background-color: white;
+                }
+            }
+        }
+
+
+    }
+    .space-features{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 1296.01px;
+        .row{
+            height: 413px;
+            width: 1396px;
+        }
+        .col,.col1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .col1{
+            width: 712px;
+        }
+        .integration_info,.secure_and_reliable_info{
+            height: 164px;
+            width: 603px;
+            h2{
+                margin-bottom: 26px;
+                font-size: 42px;
+            }
+            p{
+                font-size: 24px;
+            }
+
+        }
+        .secure_and_reliable{
+            height: 325.47px;
+            width: 401.66px;
+        }
+
+    }
+    .space-trial{
+        margin-top: 172.99px;
+        height: 423px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .row{
+            width: 1504px;
+            height: 423px;
+            background-color: rgba(250, 250, 250, 1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .col1{
+                width: 676px;
+                height: 294.35px;
+                .info{
+                    h2{
+                        font-size: 42px;
+                    }
+                    p{
+                        margin-top: 15px;
+                        font-size: 30px;
+                        margin-bottom: 42px;
+                    }
+                    .email{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        input{
+                            color: rgba(157, 157, 157, 1);
+                            border: 1px solid rgba(51, 51, 51, 1);
+                            border-radius: 5px;
+                            height: 58px;
+                            width: 382px;
+                            padding-left: 16px;
+                            font-size: 20px;
+                        }
+                        button{
+                            width: 262.74px;
+                            height: 59.35px;
+                            margin-left: 18px;
+                            background: black;
+                            color: white;
+                            font-size: 21px;
+                            border: none;
+                            border-radius: 8px  ;
+                        }
+                    }
+                }
+            }
+            .col2{
+                width: 450.64px;
+                height: 321.5px;
+            }
+        }
+        
+    }
+    .footer{
+        margin-top: 131px;
+        height: 413px;
+        width: 100%;
+        background-color: rgba(34, 34, 34, 1);
+        .row{
+            display: flex;
+            justify-content: space-between;  
+            padding-left: 145px;
+            padding-top: 80px;
+            .col{
+
+                h1{
+                    color: rgba(255, 255, 255, 1);
+                    font-size: 16px;
+                    padding-left: 32px;
+                    margin-bottom: 35px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                        color: rgba(153, 153, 153, 1)   ;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
